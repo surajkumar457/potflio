@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.cta{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: rgb(112, 90, 132);
+    border: 2px solid  black;
+    font-size: 2rem;
+    text-transform: 0.1rem;
+    margin-top: 30px ;
+    transform: 0.4s ease;
+}
+.cta:hover{
+    color: brown;
+    background-color: blue;
+}
+.one{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sho{
+       background-image: url(https://image.slidesdocs.com/responsive-images/background/purple-creal-modern-business-portfolio-simple-powerpoint-background_0baea6ef81__960_540.jpg);  
+       background-size: cover;
+    background-position: top center;
+}
+#code h1{
+    display: block;
+    width: fit-content;
+    font-size: 3.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    color: rgb(237, 235, 235);
+    animation: text_reval_box 2s forwards ;
+    animation-delay: .5;
+
+}
+#code h1 span{
+    position: absolute;
+    top:0;
+    left: 0%;
+    height: 100%;
+    width: 0%;
+    background-color: rgb(115, 10, 252);
+
+ }
+ 
+ @keyframes text_reval_box{
+    100%{
+        color:black;
+    }
+ }
+ #xyz{
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 3.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ span{
+    color: rgb(163, 129, 195);
+ }
+ #suraj{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-image: url(https://image.slidesdocs.com/responsive-images/background/purple-creal-modern-business-portfolio-simple-powerpoint-background_0baea6ef81__960_540.jpg);
+ }
+ .PAY{
+    text-decoration: NONE;
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: rgb(84, 46, 199);
+    border: 2px solid  black;
+    font-size: 2rem;
+    text-transform: 0.1rem;
+    margin-top: 30px ;
+    transform: 0.4s ease;
+ }
+.PAY:hover{
+    color: rgb(165, 42, 42);
+    background-color: blue;
+}
+.ward{
+    display: flex;
+    
+}
